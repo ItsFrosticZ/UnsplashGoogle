@@ -5,7 +5,7 @@ import ChromecastAPI from 'chromecast-api';
 const client = new ChromecastAPI();
 
 const unsplash = createApi({
-    accessKey: 'zvagPzXS9ZjNzVKJYENKAv8llvI0ErOz5mUV3rqb77I',
+    accessKey: 'YOUR_UNSPLASH_ACCESS_KEY',
     fetch: nodeFetch,
 });
 
